@@ -1,0 +1,9 @@
+
+{
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  },
+  "scripts": {
+    "mobile-link": "node ip.js"
+  }
+}
