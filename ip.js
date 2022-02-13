@@ -1,4 +1,5 @@
 'use strict';
+let appport = process.argv[2];
 var qrcode = require('qrcode-terminal');
 var os = require('os');
 var ifaces = os.networkInterfaces();
@@ -20,4 +21,8 @@ Object.keys(ifaces).forEach(function (ifname) {
   });
 });
 
-qrcode.generate(`http://${ip}:3000/`, {small: true});
+if(appport == undefined){
+  appport = "3000"
+}
+
+qrcode.generate(`http://${ip}:${appport}/`, {small: true});
