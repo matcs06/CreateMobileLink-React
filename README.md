@@ -9,7 +9,7 @@
 <image src="./mobile-link.PNG" alt="Mobile link qracode">
 <p> 4 - Use your cellphone camera on the qrcode and it will give you the link of where you local app is running</p> 
 
-<h3> If you are using VITE </>h3
+<h3> If you are using VITE </h3>
 <p> Just add the --host flag in the "dev" script in you package.json: <b>"dev": "vite --host"</b> </p>
 <image src="./viteflag.PNG" alt="vite-flag">
 
