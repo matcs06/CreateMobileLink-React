@@ -15,7 +15,7 @@
 
 <h3> If you want to open it directly to a page from the QRCode </h3>
 <p> Just pass the page route after the port, EG: "yarn openmobile 3000<b>/admin/app</b>" </p>
-<image src="./page.png" alt="page-flag">
+<image src="./page.PNG" alt="page-flag">
 
 
 </div>
