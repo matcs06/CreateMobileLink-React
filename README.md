@@ -13,4 +13,9 @@
 <p> Just add the --host flag in the "dev" script in you package.json: <b>"dev": "vite --host"</b> </p>
 <image src="./viteflag.PNG" alt="vite-flag">
 
+<h3> If you want to open it directly to a page from the QRCode </h3>
+<p> Just pass the page route after the port, EG: "yarn openmobile 3000<b>/admin/app</b>" </p>
+<image src="./page.png" alt="page-flag">
+
+
 </div>
