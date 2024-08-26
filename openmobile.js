@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 let appport = process.argv[2];
 var qrcode = require('qrcode-terminal');

@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node openmobile.js"
+    "build": "node openmobile.js",
+    "start": "node openmobile.js"
   },
   "bin": {
     "openmobile": "./openmobile.js"
