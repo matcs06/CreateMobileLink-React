@@ -1,6 +1,6 @@
 {
   "name": "openmobile",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Creates a qrcode with a link to open your local ractjs app on your phone",
   "main": "ip.js",
   "dependencies": {
