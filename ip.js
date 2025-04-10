@@ -29,4 +29,8 @@ if(appport == undefined){
 if(appport.includes("next") || next.includes("next") ){
   ip = "192.168.100.53"
 }
+
+if (appport.includes("next")){
+  appport = 3000
+}
 qrcode.generate(`http://${ip}:${appport}/`, {small: true});
